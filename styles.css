@@ -1,0 +1,272 @@
+/* Add application styles & imports to this file! */
+body {
+  color: #666666;
+  background-color: #f9f8f6;
+  background-image: url(https://www.onlygfx.com/wp-content/uploads/2015/12/ebony-black-wood-2.jpg);
+  background-position: center;
+  font-family: Georgia, Times, serif;
+  line-height: 1.4em;
+  margin: 0px;
+}
+
+.wrapper {
+  width: 940px;
+  margin: 20px auto 20px auto;
+  border: 2px solid #000000;
+  background-color: #ffffff;
+}
+
+#favicon,
+.icon {
+  background-image: (
+    'https://i.pinimg.com/originals/f5/d9/37/f5d937caae4950d5f92d6c2d79fcec67.gif'
+  );
+  width: 16px;
+  height: 16px;
+}
+
+header {
+  height: 160px fixed;
+  background-image: url(data:image/jpeg;base64,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);
+  background-repeat: no-repeat;
+  background-size: 110%;
+}
+
+h1 {
+  text-indent: -9999px;
+  width: 940px;
+  height: 130px;
+  margin: 0px;
+}
+
+nav,
+footer {
+  clear: both;
+  color: #ffffff;
+  background-color: #aeaca8;
+  height: 40px;
+}
+
+nav ul {
+  margin: 0px;
+  padding: 5px 0px 5px 10px;
+}
+nav li {
+  display: inline;
+  margin-right: 40px;
+}
+nav li a {
+  color: #ffffff;
+}
+nav li a:hover,
+nav li a.current {
+  color: #000000;
+}
+
+#search-bar {
+  float: right;
+  margin: auto;
+  /* height:0px; */
+}
+
+section.courses {
+  float: left;
+  width: 670px;
+  border-right: 10px solid #eeeeee;
+}
+
+sarticle {
+  clear: both;
+  overflow: hidden;
+  width: 100%;
+}
+
+hgroup {
+  margin-top: 40px;
+}
+figure {
+  float: left;
+  width: 290px;
+  height: 220px;
+  padding: 5px;
+  margin: 20px;
+  border: 1px solid #eeeeee;
+}
+figcaption {
+  font-size: 90%;
+  text-align: left;
+}
+aside {
+  width: 200px;
+  float: left;
+  padding: 0px 0px 0px 20px;
+}
+
+aside section a {
+  display: block;
+  padding: 10px;
+  border-bottom: 1px solid #eeeeee;
+}
+aside section a:hover {
+  color: #985d6a;
+  background-color: #efefef;
+}
+a {
+  color: #de6581;
+  text-decoration: none;
+}
+h1,
+h2,
+h3 {
+  font-weight: normal;
+}
+h2 {
+  margin: 10px 0px 5px 0px;
+  padding: 0px;
+}
+h3 {
+  margin: 0px 0px 5px 0px;
+  color: #de6581;
+}
+aside h2 {
+  padding: 30px 0px 10px 0px;
+  color: #de6581;
+}
+
+footer {
+  font-size: 80%;
+  /* padding: 7px 0px 0px 20px; */
+  padding: 8px 5px 20px 7px;
+  text-align: center;
+  color: black;
+  margin-top: 12px;
+}
+
+#search-icon,
+.fa-search::after {
+  color: #0000;
+}
+
+#search-icon,
+.fa-search {
+  color: white;
+  background-color: #aeaca8;
+  margin: -5px 0px;
+}
+
+#search-icon,
+.fa-search:hover {
+  color: black;
+}
+
+.fa {
+  padding: 10px;
+  text-align: right;
+  font-size: 20px;
+  width: 10px;
+  float: right;
+  margin: 0;
+}
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa:hover {
+  opacity: 0.9;
+  transform: scale(1.3);
+}
+
+.fa {
+  float: right;
+  margin: 0;
+  opacity: 0.2em;
+}
+
+marquee {
+  text-align: center;
+  color: #333;
+  width: 50%;
+
+  position: relative;
+
+  margin: 0;
+}
+
+marquee:hover {
+  color: darkblue;
+
+  cursor: pointer;
+  text-overflow: hidden;
+  transform: scale(1.8);
+}
+
+h2:hover {
+  cursor: pointer;
+  color: red;
+}
+form-inline {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+/* Add some margins for each label */
+.form-inline label {
+  margin: 5px 10px 5px 0;
+}
+
+/* Style the input fields */
+.form-inline input {
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+/* Style the submit button */
+.form-inline button {
+  padding: 10px 20px;
+  background-color: dodgerblue;
+  border: 1px solid #ddd;
+  color: white;
+}
+
+.form-inline button:hover {
+  background-color: royalblue;
+}
+
+/* Add responsiveness - display the form controls vertically instead of horizontally on screens that are less than 800px wide */
+@media (max-width: 800px) {
+  .form-inline input {
+    margin: 10px 0;
+  }
+
+  .form-inline {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
